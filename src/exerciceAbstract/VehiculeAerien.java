@@ -2,8 +2,8 @@ package exerciceAbstract;
 
 public class VehiculeAerien extends Vehicule {
 	//propriétés
-	private int heure;
-	private boolean longCourrier;
+	protected int heure;
+	protected boolean longCourrier;
 	
 	//constructeurs
 	public VehiculeAerien(){
@@ -37,7 +37,7 @@ public class VehiculeAerien extends Vehicule {
 			longCourrier = false;
 		}
 	}
-	//méthodes
+	//méthodes redéfinies
 	public void avancer(){
 		System.out.println("J'avance Aérien");
 	}
