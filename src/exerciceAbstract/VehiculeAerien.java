@@ -38,4 +38,10 @@ public class VehiculeAerien extends Vehicule {
 		}
 	}
 	//méthodes
+	public void avancer(){
+		System.out.println("J'avance Aérien");
+	}
+	public void seGarer(){
+		System.out.println("Je me gare Aérien");
+	}
 }
