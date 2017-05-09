@@ -2,8 +2,8 @@ package exerciceAbstract;
 
 public class Avion extends VehiculeAerien {
 	//propriétés
-	String compagnie;
-	boolean militaire;
+	private String compagnie;
+	private boolean militaire;
 	
 	//constructeur
 	public Avion(){
